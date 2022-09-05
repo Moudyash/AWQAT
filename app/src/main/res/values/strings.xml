@@ -6,4 +6,7 @@
     <string name="con" translatable="false"><u>متابعة كزائر؟</u></string>
     <string name="forgetpass" translatable="false"><u>نسيت كلمة المرور؟</u></string>
 
+    <string name="GOT_IT" translatable="false">إبدأ الأن</string>
+    <string name="NEXT" translatable="false">التالي</string>
+
 </resources>

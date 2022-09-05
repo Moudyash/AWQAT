@@ -17,7 +17,7 @@ Button btn;
     btn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            startActivity(new Intent(Sign_Up.this,Phone_Verification.class) );
+            startActivity(new Intent(Sign_Up.this,Steps.class) );
         }
     });
     }

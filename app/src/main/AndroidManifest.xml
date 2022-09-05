@@ -14,10 +14,12 @@
         android:theme="@style/Theme.AWQAT"
         tools:targetApi="31">
         <activity
+            android:name=".Steps"
+            android:exported="false" />
+        <activity
             android:name=".Phone_Verification"
             android:exported="false"
-android:parentActivityName=".Sign_In"
-            />
+            android:parentActivityName=".Sign_In" />
         <activity
             android:name=".Sign_In"
             android:exported="false" />
