@@ -2,6 +2,9 @@
     <string name="app_name">AWQAT</string>
     <string name="create_new_acc">انشاء  حساب جديد</string>
     <string name="TermsofService" translatable="false"><u> شروط الخدمة </u></string>
+    <string name="Resend_Code" translatable="false"><u>إعادة الارسال</u></string>
+
+
     <string name="PrivacyPolicy" translatable="false"><u>سياسة الخصوصية</u></string>
     <string name="con" translatable="false"><u>متابعة كزائر؟</u></string>
     <string name="forgetpass" translatable="false"><u>نسيت كلمة المرور؟</u></string>
