@@ -48,6 +48,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/first_number"
             android:layout_width="60dp"
             android:layout_height="51dp"
             android:gravity="center"
@@ -55,10 +56,11 @@
             android:maxLength="1"
             android:maxLines="1"
             android:singleLine="true"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textColor="@color/grey_90"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_marginStart="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:contentDescription="1st"
             />
 
         <View
@@ -67,6 +69,7 @@
             android:layout_marginEnd="30dp" />
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/second_number"
             android:layout_width="60dp"
             android:layout_height="51dp"
             android:gravity="center"
@@ -75,15 +78,19 @@
             android:maxLines="1"
             android:singleLine="true"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textColor="@color/grey_90"
+            android:textColor="@color/white"
             android:textStyle="bold"
-            android:layout_marginEnd="30dp" />
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/rounded_edittext"
+            android:contentDescription="2nd"
+            />
 
         <View
             android:layout_width="5dp"
             android:layout_height="0dp" />
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/third_number"
             android:layout_width="60dp"
             android:layout_height="51dp"
             android:gravity="center"
@@ -92,15 +99,20 @@
             android:maxLines="1"
             android:singleLine="true"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textColor="@color/grey_90"
+            android:textColor="@color/white"
             android:textStyle="bold"
-            android:layout_marginEnd="30dp" />
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/rounded_edittext"
+
+            android:contentDescription="3rd"
+            />
 
         <View
             android:layout_width="5dp"
             android:layout_height="0dp" />
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fourth_number"
             android:layout_width="60dp"
             android:layout_height="51dp"
             android:gravity="center"
@@ -109,8 +121,11 @@
             android:maxLines="1"
             android:singleLine="true"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textColor="@color/grey_90"
-            android:textStyle="bold" />
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_edittext"
+            android:contentDescription="4th"
+            />
 
     </LinearLayout>
     <LinearLayout

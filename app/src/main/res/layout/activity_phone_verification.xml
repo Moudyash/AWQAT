@@ -79,6 +79,7 @@ android:inputType="number"
 
     </LinearLayout>
     <Button
+
         android:layout_gravity="center"
         android:id="@+id/signupbtn"
         android:layout_marginTop="250dp"
