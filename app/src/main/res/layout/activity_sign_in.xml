@@ -9,6 +9,8 @@
     android:orientation="vertical"
     android:layout_marginStart="15dp"
     android:layout_marginEnd="15dp"
+    android:fitsSystemWindows="true"
+
     >
 
     <TextView
@@ -81,8 +83,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="15dp"
-        android:layout_gravity="end">
+        android:layout_gravity="end"
+     >
         <TextView
+            android:id="@+id/forgetpass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"
@@ -90,7 +94,7 @@
             android:textColor="@color/blue_text"
             android:textSize="13sp"
             android:layout_gravity="start"
-            android:layout_marginEnd="200dp"
+            android:layout_marginEnd="180dp"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -103,9 +107,10 @@
             />
         <CheckBox
             android:layout_width="25dp"
-            android:layout_height="21dp"
+            android:layout_height="26dp"
             android:buttonTint="@color/blue_text"
-             android:layout_marginEnd="5dp"/>
+            android:gravity="center_horizontal"
+           />
 
     </LinearLayout>
     <Button

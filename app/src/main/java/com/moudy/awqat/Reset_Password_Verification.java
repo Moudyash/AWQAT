@@ -3,24 +3,19 @@ package com.moudy.awqat;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.KeyEvent;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-public class Confirm_Phone_Verification extends AppCompatActivity {
+public class Reset_Password_Verification extends AppCompatActivity {
     TextInputEditText  first_number,second_number,third_number,fourth_number;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_confirm_phone_verification);
+        setContentView(R.layout.activity_reset_password_verification);
         initToolbar();
         initViews();
 
@@ -51,24 +46,15 @@ public class Confirm_Phone_Verification extends AppCompatActivity {
                 switch (editText.getContentDescription().toString()){
 
                     case "2nd":
-                        if (!editText.getText().toString().equals("")){
-                            third_number.requestFocus();
-
-                        }
+                        third_number.requestFocus();
 
                         break;
                     case "3rd":
-                        if (!editText.getText().toString().equals("")){
-                            fourth_number.requestFocus();
-
-                        }
+                        fourth_number.requestFocus();
 
                         break;
                     case "1st":
-                        if (!editText.getText().toString().equals("")){
-                            second_number.requestFocus();
-
-                        }
+                        second_number.requestFocus();
                         break;
                     default:
                         first_number.requestFocus();
@@ -96,7 +82,6 @@ public class Confirm_Phone_Verification extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("إعادة تعيين كلمة المرور");
+        getSupportActionBar().setTitle("تأكيد رقم الهاتف");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
-}
+    }}

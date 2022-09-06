@@ -8,6 +8,8 @@
     android:background="@color/white"
     android:orientation="vertical"
     android:gravity="end"
+    android:fitsSystemWindows="true"
+
     >
 
     <com.google.android.material.appbar.AppBarLayout

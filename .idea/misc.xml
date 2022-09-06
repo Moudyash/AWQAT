@@ -9,13 +9,16 @@
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_facebook.xml" value="0.145" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/rounded_edittext.xml" value="0.238" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/rounded_edittext_blue.xml" value="0.238" />
-        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_confirm_phone_verification.xml" value="0.4746136865342163" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_confirm_phone_verification.xml" value="0.2" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_phone_verification.xml" value="0.2" />
-        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_reset_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_reset_password_verification.xml" value="0.25416666666666665" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_steps.xml" value="0.25416666666666665" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/item_stepper.xml" value="0.25416666666666665" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/item_stepper_wizard.xml" value="0.25416666666666665" />
       </map>
     </option>
