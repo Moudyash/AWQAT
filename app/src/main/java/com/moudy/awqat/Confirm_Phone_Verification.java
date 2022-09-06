@@ -96,7 +96,7 @@ public class Confirm_Phone_Verification extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("إعادة تعيين كلمة المرور");
+        getSupportActionBar().setTitle("تأكيد رقم الهاتف");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
