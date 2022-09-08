@@ -11,5 +11,12 @@
 
     <string name="GOT_IT" translatable="false">إبدأ الأن</string>
     <string name="NEXT" translatable="false">التالي</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">الإعدادات</string>
+    <string name="profile">صفحتي</string>
+    <string name="fav">المفضلة</string>
+    <string name="dashboard">التصنيفات</string>
+    <string name="home">الرئيسية</string>
 
 </resources>

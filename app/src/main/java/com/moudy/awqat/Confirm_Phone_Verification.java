@@ -3,6 +3,7 @@ package com.moudy.awqat;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -11,12 +12,14 @@ import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
 public class Confirm_Phone_Verification extends AppCompatActivity {
     TextInputEditText  first_number,second_number,third_number,fourth_number;
+    Button confirm;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +31,12 @@ public class Confirm_Phone_Verification extends AppCompatActivity {
         edittextontextchange(second_number);
         edittextontextchange(third_number);
         edittextontextchange(fourth_number);
-
+        confirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Confirm_Phone_Verification.this,Reset_Password_Verification.class));
+            }
+        });
 
     }
 
@@ -37,6 +45,7 @@ public class Confirm_Phone_Verification extends AppCompatActivity {
         second_number= (TextInputEditText) findViewById(R.id.second_number);
         third_number= (TextInputEditText) findViewById(R.id.third_number);
         fourth_number= (TextInputEditText) findViewById(R.id.fourth_number);
+        confirm= (Button) findViewById(R.id.confirmcode_btn);
     }
 
     private void edittextontextchange(TextInputEditText editText) {

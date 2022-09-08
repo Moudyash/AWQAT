@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.Editable;
@@ -19,6 +20,7 @@ import com.google.android.material.textfield.TextInputEditText;
 public class Reset_Password_Verification extends AppCompatActivity {
     TextInputEditText  first_number,second_number,third_number,fourth_number;
 TextView resend_code;
+Button check;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,12 @@ TextView resend_code;
         edittextontextchange(second_number);
         edittextontextchange(third_number);
         edittextontextchange(fourth_number);
+        check.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Reset_Password_Verification.this,Reset_Password.class));
+            }
+        });
 resend_code.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
@@ -40,6 +48,7 @@ resend_code.setOnClickListener(new View.OnClickListener() {
     }
 
     private void initViews() {
+        check = (Button) findViewById(R.id.checkbtn);
         resend_code= (TextView) findViewById(R.id.tv_resendcode);
         first_number= (TextInputEditText) findViewById(R.id.first_number);
         second_number= (TextInputEditText) findViewById(R.id.second_number);

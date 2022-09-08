@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment"
+    android:layoutDirection="rtl">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:id="@+id/TermsofService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_shield"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14sp"
+            android:text="شروط الإستخدام"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="180dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layoutDirection="ltr"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/PrivacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14sp"
+            android:text="سياسة الخصوصية"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="165dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layoutDirection="ltr"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_contactus"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14sp"
+            android:text="تواصل معنا"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="210dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layoutDirection="ltr"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_password"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14sp"
+            android:text="تغيير كلمة المرور"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="180dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layoutDirection="ltr"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_help"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14sp"
+            android:text="المساعدة"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="220dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layoutDirection="ltr"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/RateUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rateus"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14sp"
+            android:text="قيمنا"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="250dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layoutDirection="ltr"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+
+
+        android:layout_gravity="center"
+android:layout_marginTop="120dp"
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logout"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14sp"
+            android:text="تسجيل الخروج"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="200dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layoutDirection="ltr"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

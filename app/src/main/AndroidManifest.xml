@@ -14,11 +14,19 @@
         android:theme="@style/Theme.AWQAT"
         tools:targetApi="31">
         <activity
-            android:name=".Reset_Password"
+            android:name=".TermsofService"
             android:exported="false" />
         <activity
-            android:name=".Reset_Password_Verification"
+            android:name=".PrivacyPolicy"
             android:exported="false" />
+        <activity
+            android:name=".Reset_Password"
+            android:exported="false"
+            android:parentActivityName=".Reset_Password_Verification" />
+        <activity
+            android:name=".Reset_Password_Verification"
+            android:exported="false"
+            android:parentActivityName=".Sign_In" />
         <activity
             android:name=".Confirm_Phone_Verification"
             android:exported="false"

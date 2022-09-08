@@ -111,6 +111,7 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="end">
         <TextView
+            android:id="@+id/PrivacyPolicy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"
@@ -129,6 +130,7 @@
             android:layout_gravity="end"
             />
         <TextView
+            android:id="@+id/TermsofService"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"

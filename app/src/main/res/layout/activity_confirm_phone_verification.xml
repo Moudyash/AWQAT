@@ -24,7 +24,7 @@
             android:layout_height="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:titleMarginStart="65dp"
+            app:titleMarginStart="55dp"
             app:titleTextAppearance="@style/Toolbar.TitleText"
             app:titleTextColor="@color/blue_text" />
 
@@ -167,7 +167,7 @@
 
     <Button
         android:layout_gravity="center"
-        android:id="@+id/signupbtn"
+        android:id="@+id/confirmcode_btn"
         android:layout_marginTop="250dp"
         android:layout_width="369dp"
         android:layout_height="51dp"

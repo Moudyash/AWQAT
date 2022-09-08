@@ -68,8 +68,7 @@ public class Steps extends AppCompatActivity {
                     viewPager.setCurrentItem(current);
 
                 } else {
-                    Intent intent = new Intent(Steps.this,Phone_Verification.class);
-                    startActivity(intent);
+                    startActivity(new Intent(Steps.this,Sign_In.class));
                     finish();
                 }
             }
