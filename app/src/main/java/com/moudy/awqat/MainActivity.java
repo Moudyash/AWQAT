@@ -11,14 +11,19 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.navigation.NavigationBarView;
+import com.google.android.material.slider.RangeSlider;
 import com.moudy.awqat.fragments.DashboardFragment;
 import com.moudy.awqat.fragments.FavouriteFragment;
 import com.moudy.awqat.fragments.HomeFragment;
@@ -29,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ImageView nav, shop;
     LinearLayout SearchBar;
-
+ImageButton filter_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.profile:
                         ReplaceFragment(new ProfileFragment());
-                        SearchBar.setVisibility(VISIBLE);
+                        SearchBar.setVisibility(GONE);
 
 
                         break;
@@ -75,6 +80,12 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+        filter_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showBottomSheetDialog();
+            }
+        });
 
     }
 
@@ -92,6 +103,14 @@ public class MainActivity extends AppCompatActivity {
         nav = (ImageView) findViewById(R.id.nav);
         shop = (ImageView) findViewById(R.id.shop);
         SearchBar=findViewById(R.id.search_bar_layout);
+        filter_btn=findViewById(R.id.filter_btn);
 
+    }
+    private void showBottomSheetDialog() {
+
+        final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
+        bottomSheetDialog.setContentView(R.layout.bottom_sheet_dialog_layout);
+
+        bottomSheetDialog.show();
     }
 }

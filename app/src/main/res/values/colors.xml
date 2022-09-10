@@ -12,8 +12,11 @@
     <color name="RED">#FFFA575D</color>
     <color name="line">#F5F5F5</color>
 
+    <color name="grey">#CDCDCD</color>
+
     <color name="black_text">#292929</color>
     <color name="Orange">#F9A236</color>
+    <color name="Orange_60op">#99F9A236</color>
 
     <color name="gery_text">#B5B5B5</color>
 

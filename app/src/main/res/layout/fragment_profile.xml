@@ -1,14 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.ProfileFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ProfileFragment"
+    android:background="@color/white"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="150dp"
+  >
+    <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="81dp"
+       android:layout_height="81dp"
+        android:src="@drawable/man"
+        android:translationZ="5dp"
+        android:layout_margin="5dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        android:background="@drawable/circle_white"
+
+      />
+    <ImageButton
+
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_pen"
+        android:background="@drawable/rounded_btn"
+        android:translationZ="6dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="60dp"
+
+        />
+</FrameLayout>
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="محمد سالم"
+        android:textColor="@color/black_text"
+        android:textSize="18sp"
+android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="mohammed_salem@gmail.com"
+        android:textColor="@color/gery_text"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="+966785654"
+        android:textColor="@color/gery_text"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="43dp"
+        android:background="@drawable/profile_twobtn"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:id="@+id/my_requests"
+
+            android:layout_width="168dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn3"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp">
+            <ImageView
+                android:id="@+id/bag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bag"
+                />
+            <TextView
+                android:id="@+id/my_requests_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="طلباتي"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#CDCDCD"
+android:layout_marginStart="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+android:id="@+id/my_reservations"
+            android:layout_width="168dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn3_white"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:layout_gravity="center"
+        >
+            <ImageView
+                android:id="@+id/reservations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_reservations_blue"
+                />
+            <TextView
+                android:id="@+id/reservations_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="حجوزاتي"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/blue_text"
+                android:layout_marginStart="5dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
-</FrameLayout>
+        android:id="@+id/profile_fragment_container"></FrameLayout>
+</LinearLayout>
+</LinearLayout>

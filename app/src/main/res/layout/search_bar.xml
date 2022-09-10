@@ -6,7 +6,9 @@
     android:layout_marginTop="50dp"
     android:background="@color/white"
     android:orientation="horizontal"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center"
+    >
 
     <LinearLayout
         android:id="@+id/search_bar_layout"
@@ -17,9 +19,11 @@
         >
 
         <ImageButton
+            android:id="@+id/filter_btn"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:src="@drawable/ic_filter" />
+            android:src="@drawable/ic_filter"
+            android:layout_marginTop="10dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -35,7 +39,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="37dp"
+                android:layout_height="47dp"
                 android:background="@drawable/search_edit_text"
                 android:fontFamily="@font/montserrat"
                 android:layoutDirection="ltr"

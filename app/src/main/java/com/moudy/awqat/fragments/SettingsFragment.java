@@ -13,9 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.moudy.awqat.Contact_Us;
 import com.moudy.awqat.PrivacyPolicy;
 import com.moudy.awqat.R;
 import com.moudy.awqat.Reset_Password;
+import com.moudy.awqat.Sign_In;
 import com.moudy.awqat.Sign_Up;
 import com.moudy.awqat.TermsofService;
 
@@ -68,6 +70,8 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
 
                 break;
             case R.id.ContactUs:
+                startActivity(new Intent(getActivity(), Contact_Us.class));
+
                 break;
             case R.id.ChangePassword:
 
@@ -78,6 +82,8 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
             case R.id.RateUs:
                 break;
             case R.id.Logout:
+                startActivity(new Intent(getActivity(), Sign_In.class));
+
                 break;
 
         }

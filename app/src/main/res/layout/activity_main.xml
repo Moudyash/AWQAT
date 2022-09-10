@@ -7,9 +7,10 @@
     tools:context=".MainActivity"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
-<include layout="@layout/toolbar"
-    android:id="@+id/toolbar"
-    />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
 
     <include
         android:id="@+id/searchbar"

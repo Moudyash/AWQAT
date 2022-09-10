@@ -1,0 +1,267 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_dialog"
+    android:layout_margin="15dp"
+    android:gravity="end"
+    >
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:gravity="end"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="44dp"
+              android:fontFamily="@font/montserrat"
+              android:text="البحث المتقدم"
+              android:textColor="@color/black_text"
+              android:textSize="18sp"
+              android:paddingEnd="130dp"
+
+              />
+
+          <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/montserrat"
+        android:text="اسم المدينة"
+        android:textColor="@color/blue_text"
+        android:textSize="14sp"
+        android:paddingEnd="7dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="352dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:hint="اسم المدينة"
+        android:layoutDirection="rtl"
+        app:endIconMode="dropdown_menu"
+app:boxStrokeColor="#DEDEDE"
+android:layout_marginTop="5dp"
+        >
+
+
+        <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textColor="#DEDEDE"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"
+            android:padding="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/montserrat"
+        android:text="اسم الحي"
+        android:textColor="@color/blue_text"
+        android:textSize="14sp"
+        android:paddingEnd="7dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="352dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:hint="اسم الحي"
+        android:layoutDirection="rtl"
+        app:endIconMode="dropdown_menu"
+        app:boxStrokeColor="#DEDEDE"
+        android:layout_marginTop="5dp"
+        >
+
+
+        <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textColor="#DEDEDE"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"
+            android:padding="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/create_acc_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/montserrat"
+        android:text="اسم المكان"
+        android:textColor="@color/blue_text"
+        android:textSize="14sp"
+        android:paddingEnd="7dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="352dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:hint="اسم المكان"
+        android:layoutDirection="rtl"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="#DEDEDE"
+        android:layout_marginTop="5dp"
+        >
+
+
+        <AutoCompleteTextView
+
+            android:id="@+id/filled_exposed_dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textColor="#DEDEDE"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"
+            android:padding="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/montserrat"
+        android:text="السعر"
+        android:textColor="@color/blue_text"
+        android:textSize="14sp"
+        android:paddingEnd="7dp"
+
+        />
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/range_slider"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        app:values="@array/initial_slider_values"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+style="@style/Theme.slider"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/montserrat"
+        android:text="التصنيف"
+        android:textColor="@color/blue_text"
+        android:textSize="14sp"
+        android:paddingEnd="7dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="352dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:hint="التصنيف"
+        android:layoutDirection="rtl"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="#DEDEDE"
+        android:layout_marginTop="5dp"
+        >
+
+
+        <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textColor="#DEDEDE"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"
+            android:padding="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/montserrat"
+        android:text="نوع التصنيف"
+        android:textColor="@color/blue_text"
+        android:textSize="14sp"
+        android:paddingEnd="7dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="352dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:hint="نوع التصنيف"
+        android:layoutDirection="rtl"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="#DEDEDE"
+        android:layout_marginTop="5dp"
+        >
+
+
+        <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textColor="#DEDEDE"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"
+            android:padding="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          android:layout_marginTop="25dp"
+          android:gravity="end">
+
+          <Button
+              android:id="@+id/re"
+              android:layout_width="140dp"
+              android:layout_height="51dp"
+              android:background="@drawable/btn_white"
+              android:text="إعادة تعيين"
+              android:textColor="@color/Orange"
+              android:textStyle="bold"
+              android:textSize="17sp"
+              android:fontFamily="@font/montserrat"
+              android:layout_marginBottom="30dp"
+              />
+          <Button
+              android:layout_marginStart="15dp"
+
+              android:id="@+id/btn_next"
+              android:layout_width="205dp"
+              android:layout_height="51dp"
+              android:background="@drawable/btn"
+              android:text="عرض النتائج"
+              android:textColor="@color/white"
+              android:textStyle="bold"
+              android:textSize="17sp"
+              android:fontFamily="@font/montserrat"
+              android:layout_marginBottom="30dp"
+              />
+      </LinearLayout>
+
+      </LinearLayout>
+  </ScrollView>
+</LinearLayout>

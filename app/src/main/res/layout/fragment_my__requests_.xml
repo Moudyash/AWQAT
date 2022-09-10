@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".fragments.My_Requests_Fragment"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="352dp"
+        android:layout_height="147dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="ساعة شاومي تقليد نخب أول"
+                    android:textColor="@color/black_text"
+                    android:textSize="13sp"
+                    android:layout_gravity="end"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="متجر وصلة"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="(50)"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_five_stars"/>
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/sign_in_button"
+                    android:layout_width="176dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn2"
+                    android:text="إلغاء الحجز"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="end"
+                    />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="119dp"
+                android:layout_height="129dp"
+                android:background="@drawable/btn_white">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/clock"
+
+                    />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="28dp"
+                        android:layout_margin="10dp"
+                        android:alpha="0.6"
+                        android:background="@drawable/price_bg"
+                        android:gravity="center"
+                        android:orientation="horizontal" />
+
+                    <LinearLayout
+                        android:id="@+id/price_bg"
+                        android:layout_width="60dp"
+                        android:layout_height="28dp"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=".رس"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="352dp"
+        android:layout_height="147dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="برجر بيف الحار جدا"
+                    android:textColor="@color/black_text"
+                    android:textSize="13sp"
+                    android:layout_gravity="end"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="الرياض"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text=" , "
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="ممطعم برجر كنج"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="(50)"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_five_stars"/>
+
+                </LinearLayout>
+                <Button
+                    android:layout_width="176dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn"
+                    android:text="تقييم الخدمة"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:layout_marginTop="20dp"
+                    />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="119dp"
+                android:layout_height="129dp"
+                android:background="@drawable/btn_white">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/burgar"
+android:background="@drawable/btn_white"
+                    />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="28dp"
+                        android:layout_margin="10dp"
+                        android:alpha="0.6"
+                        android:background="@drawable/price_bg"
+                        android:gravity="center"
+                        android:orientation="horizontal" />
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="28dp"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=".رس"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="30"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
