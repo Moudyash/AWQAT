@@ -74,12 +74,12 @@ public class ProfileFragment extends Fragment {
                 bag.setImageDrawable((ContextCompat.getDrawable(getContext(), R.drawable.ic_bag)));
                 //*************************************************************************************
                 my_reservations.setBackground((ContextCompat.getDrawable(getContext(), R.drawable.btn3_white)));
-                reservations.setImageDrawable((ContextCompat.getDrawable(getContext(), R.drawable.ic_bag_blue)));
+                reservations.setImageDrawable((ContextCompat.getDrawable(getContext(), R.drawable.ic_reservations_blue)));
                 reservations_tv.setTextColor(getResources().getColor(R.color.blue_text));
                 break;
             case 1:
                 my_reservations.setBackground((ContextCompat.getDrawable(getContext(), R.drawable.btn3)));
-                reservations.setImageDrawable((ContextCompat.getDrawable(getContext(), R.drawable.ic_bag)));
+                reservations.setImageDrawable((ContextCompat.getDrawable(getContext(), R.drawable.ic_reservations)));
                 reservations_tv.setTextColor(getResources().getColor(R.color.grey));
                 //*************************************************************************************
 

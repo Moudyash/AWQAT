@@ -7,7 +7,9 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".My_Cart"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    >
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -25,7 +27,7 @@
             android:layout_height="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:titleMarginStart="40dp"
+            app:titleMarginStart="120dp"
             app:titleTextAppearance="@style/Toolbar.TitleText"
             app:titleTextColor="@color/blue_text" />
 

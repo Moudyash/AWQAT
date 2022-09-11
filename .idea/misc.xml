@@ -19,7 +19,10 @@
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_back.xml" value="0.145" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_bag.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_bag_blue.xml" value="0.1705" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_bag_orange.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_clinics.xml" value="0.1705" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_empty_heart.xml" value="0.1705" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_empty_heart2.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_facebook.xml" value="0.145" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_favourite.xml" value="0.234" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_profile.xml" value="0.234" />
@@ -27,11 +30,13 @@
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_reservations_blue.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/ic_shop.xml" value="0.238" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/price_bg.xml" value="0.1705" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/price_bg_gery.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/profile_twobtn.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/rounded_btn.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/rounded_dialog.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/rounded_edittext.xml" value="0.238" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/rounded_edittext_blue.xml" value="0.238" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/rounded_imageview.xml" value="0.1705" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/search_edit_text.xml" value="0.238" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/toolbar.xml" value="0.238" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/drawable/view.xml" value="0.10400000000000001" />
@@ -45,7 +50,7 @@
         <entry key="..\:/programming/AWQAT2/app/src/main/res/font/montserrat_arabic_thin.xml" value="0.14322916666666666" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_confirm_phone_verification.xml" value="0.2" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_contact_us.xml" value="0.176" />
-        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_main.xml" value="0.16486486486486487" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_my_cart.xml" value="0.176" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_phone_verification.xml" value="0.2" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_privacy_policy.xml" value="0.2" />
@@ -58,11 +63,12 @@
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/activity_termsof_service.xml" value="0.25416666666666665" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/bottom_sheet_dialog_layout.xml" value="0.2696132596685083" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/done_dialog.xml" value="0.4" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/filter_emoji.xml" value="0.264" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
-        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_favourite.xml" value="0.11302083333333333" />
-        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_favourite.xml" value="0.264" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_home.xml" value="0.4" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_my__bookings_.xml" value="0.2" />
-        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_my__requests_.xml" value="0.6" />
+        <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_my__requests_.xml" value="0.4" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/fragment_settings.xml" value="0.2" />
         <entry key="..\:/programming/AWQAT2/app/src/main/res/layout/item_stepper.xml" value="0.25416666666666665" />

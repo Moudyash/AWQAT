@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="15dp"
+    android:background="@color/white"
+
+    >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:scrollbars="none"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="start"
+            android:background="@color/white">
+            <LinearLayout
+                android:id="@+id/first_filter"
+                android:layout_width="77dp"
+                android:layout_height="37dp"
+                android:background="@drawable/price_bg"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal"
+                android:layoutDirection="ltr"
+                android:clickable="true">
+                <TextView
+                    android:id="@+id/tv_first_filter"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:text=" الكل"
+                    android:fontFamily="@font/montserrat"
+                    />
+                <ImageView
+                    android:id="@+id/img_first_filter"
+
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/waving_hand"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/second_filter"
+
+                android:layout_width="89dp"
+                android:layout_height="37dp"
+                android:background="@drawable/price_bg_gery"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal"
+                android:layoutDirection="ltr"
+                android:clickable="true">
+                <TextView
+                    android:id="@+id/tv_second_filter"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black_text"
+                    android:text=" ملابس"
+                    android:fontFamily="@font/montserrat"
+                    />
+                <ImageView
+                    android:id="@+id/img_second_filter"
+
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/clothes"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/third_filter"
+                android:layout_width="89dp"
+                android:layout_height="37dp"
+                android:background="@drawable/price_bg_gery"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal"
+                android:layoutDirection="ltr"
+                android:clickable="true">
+                <TextView
+                    android:id="@+id/tv_third_filter"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black_text"
+                    android:text=" أحذية"
+                    android:fontFamily="@font/montserrat"
+                    />
+                <ImageView
+                    android:id="@+id/img_third_filter"
+
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/shoes"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/fourth_filter"
+
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:background="@drawable/price_bg_gery"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal"
+                android:layoutDirection="ltr"
+                android:clickable="true">
+                <TextView
+                    android:id="@+id/tv_fourth_filter"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black_text"
+                    android:text=" إلكترونيات"
+                    android:fontFamily="@font/montserrat"
+                    />
+                <ImageView
+                    android:id="@+id/img_fourth_filter"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/phone"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/fifth_filter"
+
+                android:layout_width="130dp"
+                android:layout_height="37dp"
+                android:background="@drawable/price_bg_gery"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal"
+                android:layoutDirection="ltr"
+                android:clickable="true">
+                <TextView
+                    android:id="@+id/tv_fifth_filter"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black_text"
+                    android:text=" مستلزمات طبية"
+                    android:fontFamily="@font/montserrat"
+                    />
+                <ImageView
+                    android:id="@+id/img_fifth_filter"
+
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/medecine"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView></LinearLayout>

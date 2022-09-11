@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.moudy.awqat"
-        minSdk 21
+        minSdk 26
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -38,6 +38,8 @@ dependencies {
     implementation 'com.hbb20:ccp:2.6.1'
     implementation 'com.airbnb.android:lottie:4.2.2'//for lottie
     implementation 'de.hdodenhof:circleimageview:3.1.0'//circleimageview
+
+
 
 
 }
