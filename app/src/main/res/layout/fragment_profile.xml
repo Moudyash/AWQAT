@@ -80,6 +80,34 @@ android:layout_gravity="center"
         android:layout_gravity="center"
         >
         <LinearLayout
+android:id="@+id/my_reservations"
+            android:layout_width="168dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn3_white"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+        >
+            <ImageView
+                android:id="@+id/reservations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_reservations_blue"
+                />
+            <TextView
+                android:id="@+id/reservations_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="حجوزاتي"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/blue_text"
+                android:layout_marginStart="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
             android:id="@+id/my_requests"
 
             android:layout_width="168dp"
@@ -104,41 +132,24 @@ android:layout_gravity="center"
                 android:text="طلباتي"
                 android:fontFamily="@font/montserrat"
                 android:textColor="#CDCDCD"
-android:layout_marginStart="5dp"
-                />
-        </LinearLayout>
-        <LinearLayout
-android:id="@+id/my_reservations"
-            android:layout_width="168dp"
-            android:layout_height="35dp"
-            android:background="@drawable/btn3_white"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layoutDirection="rtl"
-            android:layout_gravity="center"
-        >
-            <ImageView
-                android:id="@+id/reservations"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_reservations_blue"
-                />
-            <TextView
-                android:id="@+id/reservations_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="13sp"
-                android:text="حجوزاتي"
-                android:fontFamily="@font/montserrat"
-                android:textColor="@color/blue_text"
                 android:layout_marginStart="5dp"
                 />
         </LinearLayout>
 
+
     </LinearLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+    </androidx.viewpager.widget.ViewPager>
+    <!--Your comment
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/profile_fragment_container"></FrameLayout>
+-->
 </LinearLayout>
 </LinearLayout>

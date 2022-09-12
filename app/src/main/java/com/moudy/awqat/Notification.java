@@ -5,19 +5,19 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
-public class TermsofService extends AppCompatActivity {
+public class Notification extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_termsof_service);
+        setContentView(R.layout.activity_notification);
         initToolbar();
     }
     private void initToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("شروط الاستخدام");
+        getSupportActionBar().setTitle("الإشعارات");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

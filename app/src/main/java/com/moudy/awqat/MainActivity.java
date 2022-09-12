@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.favourite:
                         ReplaceFragment(new FavouriteFragment());
                         SearchBar.setVisibility(VISIBLE);
+
                         filterbar(R.drawable.waving_hand,"الكل"
                                 ,R.drawable.home,"أماكن الترفيه",
                                 R.drawable.hospital, "العيادات",
@@ -107,6 +108,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, My_Cart.class));
+            }
+        });
+        nav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Notification.class));
+
             }
         });
     }

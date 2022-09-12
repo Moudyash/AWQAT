@@ -18,6 +18,11 @@
         <item name="android:fontFamily">@font/montserrat</item>
 
     </style>
+    <style name="Toolbar.TitleText16" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+
+    </style>
     <style name="AppBottomSheetDialogTheme"
         parent="Theme.Design.Light.BottomSheetDialog">
         <item name="bottomSheetStyle">@style/AppModalStyle</item>
@@ -40,5 +45,11 @@
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>        <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.AWQAT.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AWQAT.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.AWQAT.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

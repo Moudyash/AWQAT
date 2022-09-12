@@ -22,6 +22,7 @@ public class My_Requests_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view =inflater.inflate(R.layout.fragment_my__requests_, container, false);
+        setRetainInstance(true);
 
 
         return view ;

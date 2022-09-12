@@ -1,8 +1,5 @@
 package com.moudy.awqat.fragments;
 
-import static android.view.View.GONE;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -13,13 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.moudy.awqat.Contact_Us;
-import com.moudy.awqat.PrivacyPolicy;
+import com.moudy.awqat.SettingsActivitys.Contact_Us;
 import com.moudy.awqat.R;
 import com.moudy.awqat.Reset_Password;
 import com.moudy.awqat.Sign_In;
-import com.moudy.awqat.Sign_Up;
-import com.moudy.awqat.TermsofService;
+import com.moudy.awqat.SettingsActivitys.TermsofService;
 
 
 public class SettingsFragment extends Fragment implements View.OnClickListener {
@@ -62,7 +57,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.PrivacyPolicy:
-                startActivity(new Intent(getActivity(), com.moudy.awqat.PrivacyPolicy.class) );
+                startActivity(new Intent(getActivity(), com.moudy.awqat.SettingsActivitys.PrivacyPolicy.class) );
 
                 break;
             case R.id.TermsofService:

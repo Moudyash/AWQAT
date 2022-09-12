@@ -21,6 +21,7 @@
             android:orientation="horizontal"
             >
             <androidx.cardview.widget.CardView
+                android:id="@+id/clinics"
                 android:layout_width="169dp"
                 android:layout_height="183dp"
                 app:cardCornerRadius="5dp"
@@ -49,6 +50,8 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/funny_places"
+
                 android:layout_width="169dp"
                 android:layout_height="183dp"
                 app:cardCornerRadius="5dp"
@@ -83,6 +86,8 @@
             android:orientation="horizontal"
             >
             <androidx.cardview.widget.CardView
+                android:id="@+id/shopping"
+
                 android:layout_width="169dp"
                 android:layout_height="183dp"
                 app:cardCornerRadius="5dp"
@@ -111,6 +116,8 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/meals"
+
                 android:layout_width="169dp"
                 android:layout_height="183dp"
                 app:cardCornerRadius="5dp"

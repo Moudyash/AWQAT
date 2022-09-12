@@ -24,6 +24,7 @@ public class My_Bookings_Fragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view=  inflater.inflate(R.layout.fragment_my__bookings_, container, false);
+
         return view ;
     }
 }

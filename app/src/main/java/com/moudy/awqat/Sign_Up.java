@@ -48,11 +48,11 @@ TextView PrivacyPolicy,TermsofService;
 
                 break;
             case R.id.PrivacyPolicy:
-                startActivity(new Intent(Sign_Up.this,PrivacyPolicy.class) );
+                startActivity(new Intent(Sign_Up.this, com.moudy.awqat.SettingsActivitys.PrivacyPolicy.class) );
 
                 break;
             case R.id.TermsofService:
-                startActivity(new Intent(Sign_Up.this,TermsofService.class) );
+                startActivity(new Intent(Sign_Up.this, com.moudy.awqat.SettingsActivitys.TermsofService.class) );
 
                 break;
         }

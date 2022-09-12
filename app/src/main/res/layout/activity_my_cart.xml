@@ -49,33 +49,33 @@
             >
 
             <LinearLayout
-                android:layout_width="85dp"
-                android:layout_height="wrap_content"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
                 android:layout_marginTop="25dp"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:layout_marginEnd="50dp"
+                android:layout_marginEnd="10dp"
                 >
 
                 <Button
-                    android:layout_width="17dp"
-                    android:layout_height="17dp"
-                    android:layout_marginEnd="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="10dp"
                     android:background="@drawable/btn4"
                     android:text="+"
                     android:textColor="@color/black_text" />
 
                 <Button
-                    android:layout_width="33dp"
-                    android:layout_height="33dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/btn4"
                     android:text="1"
                     android:textColor="@color/black_text" />
 
                 <Button
-                    android:layout_width="17dp"
-                    android:layout_height="17dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
                     android:background="@drawable/btn4"
                     android:text="-"
                     android:textColor="@color/black_text" />
@@ -219,33 +219,33 @@
         >
 
         <LinearLayout
-            android:layout_width="85dp"
-            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
             android:layout_marginTop="25dp"
             android:orientation="horizontal"
             android:gravity="center"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="10dp"
             >
 
             <Button
-                android:layout_width="17dp"
-                android:layout_height="17dp"
-                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="10dp"
                 android:background="@drawable/btn4"
                 android:text="+"
                 android:textColor="@color/black_text" />
 
             <Button
-                android:layout_width="33dp"
-                android:layout_height="33dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:background="@drawable/btn4"
                 android:text="1"
                 android:textColor="@color/black_text" />
 
             <Button
-                android:layout_width="17dp"
-                android:layout_height="17dp"
-                android:layout_marginStart="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/btn4"
                 android:text="-"
                 android:textColor="@color/black_text" />
@@ -389,33 +389,33 @@
         >
 
         <LinearLayout
-            android:layout_width="85dp"
-            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
             android:layout_marginTop="25dp"
             android:orientation="horizontal"
             android:gravity="center"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="10dp"
             >
 
             <Button
-                android:layout_width="17dp"
-                android:layout_height="17dp"
-                android:layout_marginEnd="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="10dp"
                 android:background="@drawable/btn4"
                 android:text="+"
                 android:textColor="@color/black_text" />
 
             <Button
-                android:layout_width="33dp"
-                android:layout_height="33dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:background="@drawable/btn4"
                 android:text="1"
                 android:textColor="@color/black_text" />
 
             <Button
-                android:layout_width="17dp"
-                android:layout_height="17dp"
-                android:layout_marginStart="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/btn4"
                 android:text="-"
                 android:textColor="@color/black_text" />

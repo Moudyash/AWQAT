@@ -17,6 +17,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.moudy.awqat.ViewPagerTransformer.ForegroundToBackgroundPageTransformer;
+
 public class Steps extends AppCompatActivity {
     private static final int MAX_STEP = 3;
 
@@ -50,6 +52,7 @@ public class Steps extends AppCompatActivity {
     }
 
     private void initComponent() {
+
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         btnNext = (Button) findViewById(R.id.btn_next);
 
@@ -58,6 +61,8 @@ public class Steps extends AppCompatActivity {
 
         myViewPagerAdapter = new MyViewPagerAdapter();
         viewPager.setAdapter(myViewPagerAdapter);
+        viewPager.setPageTransformer(true, new ForegroundToBackgroundPageTransformer());
+
         viewPager.addOnPageChangeListener(viewPagerPageChangeListener);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +70,7 @@ public class Steps extends AppCompatActivity {
                 int current = viewPager.getCurrentItem() + 1;
                 if (current < MAX_STEP) {
                     // move to next screen
+                    viewPager.setPageTransformer(true, new ForegroundToBackgroundPageTransformer());
                     viewPager.setCurrentItem(current);
 
                 } else {

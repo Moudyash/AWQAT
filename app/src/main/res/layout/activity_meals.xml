@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories.Meals"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleMarginStart="120dp"
+            app:titleTextAppearance="@style/Toolbar.TitleText16"
+            app:titleTextColor="@color/black_text" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/meals_searchbar"
+            layout="@layout/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+android:background="@color/white"
+        >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:scrollbars="none"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/first_filter"
+                    android:layout_width="77dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/price_bg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layoutDirection="ltr"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_first_filter"
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text=" الكل"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img_first_filter"
+
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:src="@drawable/waving_hand" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/second_filter"
+
+                    android:layout_width="85dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/price_bg_gery"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layoutDirection="ltr"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_second_filter"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="  ملابس "
+                        android:textColor="@color/black_text"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img_second_filter"
+
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:src="@drawable/clothes" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/third_filter"
+                    android:layout_width="89dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/price_bg_gery"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layoutDirection="ltr"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_third_filter"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text=" أحذية"
+                        android:textColor="@color/black_text"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img_third_filter"
+
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:src="@drawable/shoes" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fourth_filter"
+
+                    android:layout_width="100dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/price_bg_gery"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layoutDirection="ltr"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_fourth_filter"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text=" إلكترونيات"
+                        android:textColor="@color/black_text"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img_fourth_filter"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:src="@drawable/phone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fifth_filter"
+
+                    android:layout_width="130dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/price_bg_gery"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layoutDirection="ltr"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_fifth_filter"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text=" مستلزمات طبية"
+                        android:textColor="@color/black_text"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img_fifth_filter"
+
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:src="@drawable/medecine" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/showmore"
+            android:textColor="@color/gery_text"
+            android:textSize="13sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:fontFamily="@font/montserrat"
+            android:text="الأكثر طلباً"
+            android:textColor="@color/blue_text"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layoutDirection="rtl"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="284dp"
+                android:layout_marginEnd="5dp"
+                android:layoutDirection="ltr"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="end"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="191dp"
+                        android:layout_height="192dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="191dp"
+                            android:layout_height="192dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_imageview"
+                            android:scaleType="centerCrop"
+
+                            android:src="@drawable/pizza3" />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_empty_heart"
+                            android:layout_margin="15dp"/>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_marginStart="110dp"
+                                android:layout_marginTop="5dp"
+
+
+                                >
+                                <LinearLayout
+                                    android:layout_width="60dp"
+                                    android:layout_height="28dp"
+                                    android:layout_margin="10dp"
+                                    android:alpha="0.7"
+                                    android:background="@drawable/price_bg_blue"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    />
+
+                                <LinearLayout
+                                    android:layout_width="60dp"
+                                    android:layout_height="28dp"
+                                    android:layout_margin="10dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+
+                                    >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=".رس"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="40"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+                            </FrameLayout>
+
+
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:fontFamily="@font/montserrat"
+                            android:text="شاليه أخضر مع ملعب طائرة"
+                            android:textColor="@color/black_text"
+                            android:textSize="13sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="الرياض"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text=" , "
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="حي الرياض"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="(50)"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:src="@drawable/ic_five_stars" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="191dp"
+                android:layout_height="284dp"
+                android:layout_marginEnd="20dp"
+                android:layoutDirection="ltr"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="192dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="191dp"
+                            android:layout_height="192dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_imageview"
+                            android:scaleType="centerCrop"
+
+                            android:src="@drawable/buerger_img4" />
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_empty_heart" />
+
+                        </FrameLayout>
+
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:fontFamily="@font/montserrat"
+                            android:text="عيادة الاسنان التخصصية"
+                            android:textColor="@color/black_text"
+                            android:textSize="13sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="الرياض"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text=" , "
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="حي الرياض"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="(50)"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:src="@drawable/ic_five_stars" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="284dp"
+                android:layout_marginEnd="15dp"
+                android:layoutDirection="ltr"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="192dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="191dp"
+                            android:layout_height="192dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_imageview"
+                            android:scaleType="fitXY"
+
+                            android:src="@drawable/green_chalet" />
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_empty_heart" />
+
+                        </FrameLayout>
+
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:fontFamily="@font/montserrat"
+                            android:text="شاليه أخضر مع ملعب طائرة"
+                            android:textColor="@color/black_text"
+                            android:textSize="13sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="الرياض"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text=" , "
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="حي الرياض"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:text="(50)"
+                                android:textColor="@color/gery_text"
+                                android:textSize="12sp"
+
+                                />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:src="@drawable/ic_five_stars" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/showmore"
+            android:textColor="@color/gery_text"
+            android:textSize="13sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:fontFamily="@font/montserrat"
+            android:text="الأكثر شهرة"
+            android:textColor="@color/blue_text"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+
+
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:gravity="end"
+            android:layoutDirection="ltr"
+
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="191dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="20dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_imageview">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/buerger_img3"
+                        android:scaleType="centerCrop"
+                        />
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:alpha="0.7"
+                            android:background="@drawable/price_bg_blue"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=".رس"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="40"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+
+                        </LinearLayout>
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="90dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="(5)"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/ic_four_stars"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="برجر بيف الحار جدا"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+
+                        />
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_empty_heart"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="13dp"
+                        />
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="191dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="28dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_imageview">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pizza2"
+                        android:scaleType="centerCrop"
+                        />
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:alpha="0.7"
+                            android:background="@drawable/price_bg_blue"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=".رس"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="40"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="90dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="(5)"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/ic_four_stars"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="بيتزا مارجاريتا بالجبنة"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_empty_heart"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="13dp"
+                        />
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/showmore"
+            android:textColor="@color/gery_text"
+            android:textSize="13sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="225dp"
+            android:fontFamily="@font/montserrat"
+            android:text="المضافة حديثاً"
+            android:textColor="@color/blue_text"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+
+
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:gravity="end"
+            android:layoutDirection="ltr"
+
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="191dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="20dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_imageview">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/buerger_img"
+                        android:scaleType="centerCrop"
+                        />
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:alpha="0.7"
+                            android:background="@drawable/price_bg_blue"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=".رس"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="40"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+
+                        </LinearLayout>
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="90dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="(5)"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/ic_four_stars"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="برجر بيف الحار جدا"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+
+                        />
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_empty_heart"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="13dp"
+                        />
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="191dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="28dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_imageview">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pizza"
+                        android:scaleType="centerCrop"
+                        />
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:alpha="0.7"
+                            android:background="@drawable/price_bg_blue"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=".رس"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="40"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="90dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="(5)"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/ic_four_stars"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="بيتزا مارجاريتا بالجبنة"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_empty_heart"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="13dp"
+                        />
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
