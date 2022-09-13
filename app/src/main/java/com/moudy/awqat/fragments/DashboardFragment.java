@@ -16,6 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.moudy.awqat.Categories.MealDetails;
 import com.moudy.awqat.Categories.Meals;
 import com.moudy.awqat.R;
 
@@ -51,6 +52,7 @@ public class DashboardFragment extends Fragment implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.clinics:
+                startActivity(new Intent(getActivity(), MealDetails.class));
 
                 break;
             case R.id.funny_places:

@@ -244,7 +244,7 @@ android:background="@color/white"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="260dp"
+            android:layout_marginStart="250dp"
             android:fontFamily="@font/montserrat"
             android:text="الأكثر طلباً"
             android:textColor="@color/blue_text"
@@ -356,7 +356,7 @@ android:background="@color/white"
                             android:layout_height="wrap_content"
                             android:layout_gravity="end"
                             android:fontFamily="@font/montserrat"
-                            android:text="شاليه أخضر مع ملعب طائرة"
+                            android:text="بيتزا مارجريتا بالجبنة"
                             android:textColor="@color/black_text"
                             android:textSize="13sp" />
 
@@ -389,7 +389,7 @@ android:background="@color/white"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/montserrat"
-                                android:text="حي الرياض"
+                                android:text="مطعم بيتزا هات"
                                 android:textColor="@color/gery_text"
                                 android:textSize="12sp"
 
@@ -517,7 +517,7 @@ android:background="@color/white"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/montserrat"
-                                android:text="حي الرياض"
+                                android:text="مطعم برجر كنج"
                                 android:textColor="@color/gery_text"
                                 android:textSize="12sp"
 
@@ -702,7 +702,7 @@ android:background="@color/white"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="250dp"
+            android:layout_marginStart="240dp"
             android:fontFamily="@font/montserrat"
             android:text="الأكثر شهرة"
             android:textColor="@color/blue_text"
@@ -975,11 +975,12 @@ android:background="@color/white"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="225dp"
+            android:layout_marginStart="210dp"
             android:fontFamily="@font/montserrat"
             android:text="المضافة حديثاً"
             android:textColor="@color/blue_text"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            />
 
     </LinearLayout>
 
