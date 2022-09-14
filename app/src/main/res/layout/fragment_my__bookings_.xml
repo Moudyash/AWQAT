@@ -4,11 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     tools:context=".fragments.My_Bookings_Fragment"
     android:orientation="vertical">
-
-    <androidx.cardview.widget.CardView
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv"
+        android:layout_marginTop="40dp"/>
+<!---    <androidx.cardview.widget.CardView
         android:layout_width="352dp"
         android:layout_height="147dp"
         app:cardCornerRadius="8dp">
@@ -329,5 +332,6 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+-->
 
 </LinearLayout>

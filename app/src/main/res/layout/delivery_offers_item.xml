@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+
+
+
+        <ImageView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/ic_five_stars"
+            android:layout_marginEnd="55dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/person"
+            android:layout_gravity="end"/>
+        <TextView
+            android:id="@+id/driver_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="عبد المجيد محمد"
+            android:textColor="@color/blue_text"
+            android:textSize="13sp"
+            android:layout_marginEnd="55dp"
+            android:layout_gravity="end"
+            android:maxLength="30"
+
+            />
+        <TextView
+            android:id="@+id/request_rate_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="(50)"
+            android:textColor="@color/gery_text"
+            android:textSize="13sp"
+            android:layout_marginEnd="135dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="25dp"
+            />
+
+        <ImageView
+            android:id="@+id/accept_request_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+
+            android:src="@drawable/ic_accept_btn"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="8dp"
+
+            />
+        <ImageView
+            android:id="@+id/reject_request_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+
+            android:src="@drawable/ic_reject_btn"
+            android:layout_marginStart="60dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="8dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/driver_details_bg"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+          >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="70.رس"
+                android:textColor="@color/gery_text"
+                android:textSize="10sp"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dollar_icon"
+                android:layout_marginStart="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="8:30 صباحا - 12:30 مساءا"
+                android:textColor="@color/gery_text"
+                android:textSize="10sp"
+                android:layout_marginStart="20dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clock_icon"
+                android:layout_marginStart="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="4 طلبات"
+                android:textColor="@color/gery_text"
+                android:textSize="10sp"
+android:layout_marginStart="20dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_request_numbers_icon"
+                android:layout_marginStart="5dp"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

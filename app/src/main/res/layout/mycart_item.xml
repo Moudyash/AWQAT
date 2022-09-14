@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="end"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"
+            >
+
+            <Button
+                android:id="@+id/increase_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn4"
+                android:text="+"
+                android:textColor="@color/black_text" />
+
+            <TextView
+                android:id="@+id/count_of_product"
+android:gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn4"
+                android:text="1"
+                android:textColor="@color/black_text" />
+
+            <Button
+                android:id="@+id/decrease_btn"
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn4"
+                android:text="-"
+                android:textColor="@color/black_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/montserrat"
+                android:text="ساعة شاومي تقليد  نخب اول"
+                android:textColor="@color/blue_text"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+
+                <TextView
+                    android:id="@+id/city_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="الرياض"
+                    android:textColor="@color/gery_text"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text=" , "
+                    android:textColor="@color/gery_text"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/neighborhood_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="متجر الماركة"
+                    android:textColor="@color/gery_text"
+                    android:textSize="12sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/number_of_people_how_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="(50)"
+                    android:textColor="@color/gery_text"
+                    android:textSize="12sp"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/stars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_five_stars" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text=".رس"
+                    android:textColor="@color/gery_text"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="80"
+                    android:textColor="@color/gery_text"
+                    android:textSize="12sp"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:background="@drawable/btn_white">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/clock"
+
+                />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/delete_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_delete"
+                    android:layout_marginStart="20dp"
+
+                    android:layout_marginTop="22dp"
+
+                    />
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

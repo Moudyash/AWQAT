@@ -23,6 +23,18 @@
         <item name="android:fontFamily">@font/montserrat</item>
 
     </style>
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fall_down</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+
+    </style>
+
+
+
     <style name="AppBottomSheetDialogTheme"
         parent="Theme.Design.Light.BottomSheetDialog">
         <item name="bottomSheetStyle">@style/AppModalStyle</item>

@@ -4,13 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    tools:context=".My_Cart"
-    android:background="@color/white"
+    tools:context=".Categories.DeliveryOffers"
     android:fitsSystemWindows="true"
-    >
-
+    android:orientation="vertical">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
@@ -32,11 +28,8 @@
             app:titleTextColor="@color/blue_text" />
 
     </com.google.android.material.appbar.AppBarLayout>
-
-
 <androidx.recyclerview.widget.RecyclerView
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/mycart_rv"/>
+    android:layout_height="match_parent"/>
 
 </LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+
+
+        <ImageView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="160dp"
+            android:src="@drawable/ic_five_stars"
+            android:layout_gravity="start"
+            />
+
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/profile_image"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/person"
+    android:layout_gravity="end"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="عبد المجيد محمد"
+        android:textColor="@color/blue_text"
+        android:textSize="13sp"
+        android:layout_marginEnd="55dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="7dp"
+        android:maxLength="30"
+
+        />
+    <TextView
+        android:id="@+id/comment_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="2/8/2021"
+        android:textColor="@color/gery_text"
+        android:textSize="13sp"
+        android:layout_marginEnd="55dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="25dp"
+        />
+    <TextView
+        android:id="@+id/comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="خدمة رائعة وسريعة"
+        android:textColor="@color/gery_text"
+        android:textSize="13sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="5dp"
+        />
+</FrameLayout>
+
+</LinearLayout>

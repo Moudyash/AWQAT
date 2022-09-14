@@ -1,11 +1,17 @@
 package com.moudy.awqat.Modle;
 
-import android.widget.TextView;
-
-public class Booking {
-    public String place_name, city_name, neighborhood_name, number_of_people_how_rate;
+public class Mycart {
+    public String place_name, city_name, neighborhood_name, number_of_people_how_rate,count_of_product;
     private   double price;
     private int place_photo,stars;
+
+    public String getCount_of_product() {
+        return count_of_product;
+    }
+
+    public void setCount_of_product(String count_of_product) {
+        this.count_of_product = count_of_product;
+    }
 
     public String getPlace_name() {
         return place_name;
@@ -63,7 +69,7 @@ public class Booking {
         this.stars = stars;
     }
 
-    public Booking(String place_name, String city_name, String neighborhood_name, String number_of_people_how_rate, double price, int place_photo, int stars) {
+    public Mycart(String place_name, String city_name, String neighborhood_name, String number_of_people_how_rate,String count_of_product, double price, int place_photo, int stars) {
         this.place_name = place_name;
         this.city_name = city_name;
         this.neighborhood_name = neighborhood_name;
@@ -71,5 +77,6 @@ public class Booking {
         this.price = price;
         this.place_photo = place_photo;
         this.stars = stars;
+
     }
 }

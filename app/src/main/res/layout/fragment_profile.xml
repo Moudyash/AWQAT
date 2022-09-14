@@ -21,19 +21,23 @@
     android:layout_marginStart="150dp"
   >
     <de.hdodenhof.circleimageview.CircleImageView
-       android:layout_width="81dp"
+        android:id="@+id/profile_photo"
+
+        android:layout_width="81dp"
        android:layout_height="81dp"
         android:src="@drawable/man"
         android:translationZ="5dp"
         android:layout_margin="5dp"/>
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="91dp"
         android:layout_height="91dp"
         android:background="@drawable/circle_white"
 
-      />
-    <ImageButton
+        />
 
+    <ImageButton
+android:id="@+id/edit_profile_image"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:src="@drawable/ic_pen"

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.My_Bookings_Fragment"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="352dp"
+        android:layout_height="147dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:fontFamily="@font/montserrat"
+                    android:text="عيادة التجميل التخصصية"
+                    android:textColor="@color/black_text"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+
+                    <TextView
+                        android:id="@+id/city_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="الرياض"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text=" , "
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/neighborhood_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="حي الرياض"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/number_of_people_how_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="(50)"
+                        android:textColor="@color/gery_text"
+                        android:textSize="12sp"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/stars"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_five_stars" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/cancel_booking_btn"
+                    android:layout_width="176dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn2"
+                    android:fontFamily="@font/montserrat"
+                    android:text="إلغاء الحجز"
+                    android:textColor="@color/white"
+
+                    android:textSize="15sp" />
+                <Button
+                    android:visibility="gone"
+                    android:id="@+id/rate_service"
+                    android:layout_width="176dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn"
+                    android:text="تقييم الخدمة"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:layout_marginTop="20dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="119dp"
+                android:layout_height="129dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_imageview">
+
+                    <ImageView
+                        android:id="@+id/place_photo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/beauty_clinic"
+
+                        />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:alpha="0.6"
+                            android:background="@drawable/price_bg"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+
+                        <LinearLayout
+                            android:id="@+id/price_bg"
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=".رس"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="100"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
