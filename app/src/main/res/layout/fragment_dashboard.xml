@@ -45,7 +45,7 @@
                         android:text="العيادات"
                         android:textColor="#292929"
                         android:textSize="17sp"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/medium"
                         android:layout_marginTop="25dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -74,7 +74,7 @@
                         android:text="أماكن الترفيه"
                         android:textColor="#292929"
                         android:textSize="17sp"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/medium"
                         android:layout_marginTop="25dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -111,7 +111,7 @@
                         android:text="التسوق"
                         android:textColor="#292929"
                         android:textSize="17sp"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/medium"
                         android:layout_marginTop="25dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -140,7 +140,7 @@
                         android:text="الوجبات"
                         android:textColor="#292929"
                         android:textSize="17sp"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/medium"
                         android:layout_marginTop="25dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

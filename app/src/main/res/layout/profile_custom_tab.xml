@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:text="طلباتي"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="#CDCDCD"
             android:layout_marginStart="5dp"
             />
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:text="حجوزاتي"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/blue_text"
             android:layout_marginStart="5dp"
             />

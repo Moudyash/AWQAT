@@ -55,7 +55,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" الكل"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
@@ -85,7 +85,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" ملابس"
                         android:textColor="@color/black_text"
                         android:textSize="12sp" />
@@ -115,7 +115,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" أحذية"
                         android:textColor="@color/black_text"
                         android:textSize="12sp" />
@@ -145,7 +145,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" إلكترونيات"
                         android:textColor="@color/black_text"
                         android:textSize="12sp" />
@@ -174,7 +174,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" مستلزمات طبية"
                         android:textColor="@color/black_text"
                         android:textSize="12sp" />
@@ -202,7 +202,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/light"
             android:text="@string/showmore"
             android:textColor="@color/gery_text"
             android:textSize="13sp" />
@@ -212,7 +212,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="250dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/medium"
             android:text="الأكثر حجزا"
             android:textColor="@color/blue_text"
             android:textSize="15sp" />
@@ -286,7 +286,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="end"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/regular"
                                 android:text="شاليه أخضر مع ملعب طائرة"
                                 android:textColor="@color/black_text"
                                 android:textSize="13sp" />
@@ -299,7 +299,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="الرياض"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -309,7 +309,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text=" , "
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -319,7 +319,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="حي الرياض"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -336,7 +336,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="(50)"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -414,7 +414,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="end"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/regular"
                                 android:text="عيادة الاسنان التخصصية"
                                 android:textColor="@color/black_text"
                                 android:textSize="13sp" />
@@ -427,7 +427,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="الرياض"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -437,7 +437,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text=" , "
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -447,7 +447,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="حي الرياض"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -464,7 +464,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="(50)"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -538,7 +538,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="end"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/regular"
                                 android:text="شاليه أخضر مع ملعب طائرة"
                                 android:textColor="@color/black_text"
                                 android:textSize="13sp" />
@@ -551,7 +551,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="الرياض"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -561,7 +561,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text=" , "
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -571,7 +571,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="حي الرياض"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -588,7 +588,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/regular"
                                     android:text="(50)"
                                     android:textColor="@color/gery_text"
                                     android:textSize="12sp"
@@ -624,7 +624,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/light"
             android:text="@string/showmore"
             android:textColor="@color/gery_text"
             android:textSize="13sp" />
@@ -634,7 +634,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="180dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/medium"
             android:text="الأكثر تسوقا وشراءا"
             android:textColor="@color/blue_text"
             android:textSize="15sp" />
@@ -667,7 +667,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     android:text="ساعة شاومي تقليد نخب أول"
                     android:textColor="@color/black_text"
                     android:textSize="13sp"
@@ -686,7 +686,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="متجر وصلة"
                         android:textColor="@color/gery_text"
 
@@ -707,7 +707,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="(50)"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -729,7 +729,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="الرياض"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -738,7 +738,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" , "
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -748,7 +748,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="حي الرياض"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -849,7 +849,7 @@ android:layout_marginEnd="190dp"
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     android:text="بلوفر لون أبيض ماركة أصلية"
                     android:textColor="@color/black_text"
                     android:textSize="13sp"
@@ -868,7 +868,7 @@ android:layout_marginEnd="190dp"
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="متجر ماركة"
                         android:textColor="@color/gery_text"
 
@@ -889,7 +889,7 @@ android:layout_marginEnd="190dp"
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="(10)"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -911,7 +911,7 @@ android:layout_marginEnd="190dp"
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="الرياض"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -920,7 +920,7 @@ android:layout_marginEnd="190dp"
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" , "
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -930,7 +930,7 @@ android:layout_marginEnd="190dp"
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="حي الرياض"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -1020,7 +1020,7 @@ android:layout_marginEnd="190dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/light"
             android:text="@string/showmore"
             android:textColor="@color/gery_text"
             android:textSize="13sp" />
@@ -1030,7 +1030,7 @@ android:layout_marginEnd="190dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="250dp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/medium"
             android:text="الأكثر طلبا"
             android:textColor="@color/blue_text"
             android:textSize="15sp" />
@@ -1130,7 +1130,7 @@ android:layout_marginEnd="190dp"
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:text="(5)"
             android:textColor="@color/white"
             android:textSize="12sp"
@@ -1147,7 +1147,7 @@ android:layout_marginEnd="190dp"
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
         android:text="برجر بيف الحار جدا"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -1240,7 +1240,7 @@ android:layout_marginEnd="190dp"
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat"
+                            android:fontFamily="@font/regular"
                             android:text="(5)"
                             android:textColor="@color/white"
                             android:textSize="12sp"
@@ -1257,7 +1257,7 @@ android:layout_marginEnd="190dp"
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="بيتزا مارجاريتا بالجبنة"
                         android:textColor="@color/white"
                         android:textSize="14sp"

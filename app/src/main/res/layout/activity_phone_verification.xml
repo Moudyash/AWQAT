@@ -42,7 +42,7 @@
             android:textSize="15sp"
             android:textColor="@color/black_text"
 
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textStyle="bold"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="20dp"/>
@@ -58,6 +58,7 @@
             android:layout_height="56dp"
             android:background="#F2F2F2"
             android:gravity="center"
+
 
             />
         <com.google.android.material.textfield.TextInputLayout
@@ -75,6 +76,7 @@
                 android:hint="رقم الهاتف"
 android:inputType="number"
                 android:maxLength="10"
+                android:fontFamily="@font/light"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -91,7 +93,7 @@ android:inputType="number"
         android:background="@drawable/btn"
         android:text="تأكيد"
         android:textSize="15sp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
 
         />
 </LinearLayout>

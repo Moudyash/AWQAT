@@ -39,7 +39,7 @@
                     android:textSize="12sp"
                     android:textColor="@color/white"
                     android:text=" الكل"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     />
                 <ImageView
                     android:id="@+id/img_first_filter"
@@ -67,7 +67,7 @@
                     android:textSize="12sp"
                     android:textColor="@color/black_text"
                     android:text=" ملابس"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     />
                 <ImageView
                     android:id="@+id/img_second_filter"
@@ -97,7 +97,7 @@
                     android:textSize="12sp"
                     android:textColor="@color/black_text"
                     android:text=" أحذية"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     />
                 <ImageView
                     android:id="@+id/img_third_filter"
@@ -125,7 +125,7 @@
                     android:textSize="12sp"
                     android:textColor="@color/black_text"
                     android:text=" إلكترونيات"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     />
                 <ImageView
                     android:id="@+id/img_fourth_filter"
@@ -152,7 +152,7 @@
                     android:textSize="12sp"
                     android:textColor="@color/black_text"
                     android:text=" مستلزمات طبية"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     />
                 <ImageView
                     android:id="@+id/img_fifth_filter"

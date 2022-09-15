@@ -46,6 +46,7 @@
         android:background="@color/white"
         android:layout_alignParentBottom="true"
         android:layoutDirection="rtl"
+
         />
 
 </RelativeLayout>

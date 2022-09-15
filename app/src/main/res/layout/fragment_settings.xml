@@ -36,7 +36,7 @@
 
             android:textSize="14sp"
             android:text="شروط الإستخدام"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/black_text"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
@@ -77,7 +77,7 @@
 
             android:textSize="14sp"
             android:text="سياسة الخصوصية"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/black_text"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
@@ -118,7 +118,7 @@
 
             android:textSize="14sp"
             android:text="تواصل معنا"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/black_text"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
@@ -159,7 +159,7 @@
 
             android:textSize="14sp"
             android:text="تغيير كلمة المرور"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/black_text"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
@@ -200,7 +200,7 @@
 
             android:textSize="14sp"
             android:text="المساعدة"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/black_text"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
@@ -241,7 +241,7 @@
 
             android:textSize="14sp"
             android:text="قيمنا"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/black_text"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
@@ -286,7 +286,7 @@ android:layout_marginTop="120dp"
 
             android:textSize="14sp"
             android:text="تسجيل الخروج"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:textColor="@color/black_text"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"

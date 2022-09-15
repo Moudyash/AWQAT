@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/semibold"
         android:text="تسجيل الدخول"
         android:textColor="@color/blue_text"
         android:textSize="22sp"
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
         android:text="عنوان البريد الإلكتروني*"
         android:textColor="@color/black_text"
         android:textSize="15sp"
@@ -47,6 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layoutDirection="rtl"
+            android:fontFamily="@font/light"
 
             />
     </com.google.android.material.textfield.TextInputLayout>
@@ -54,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
         android:text="كلمة المرور*"
         android:textColor="@color/black_text"
         android:textSize="15sp"
@@ -74,6 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layoutDirection="rtl"
+            android:fontFamily="@font/light"
 
             />
     </com.google.android.material.textfield.TextInputLayout>
@@ -90,7 +92,7 @@
             android:id="@+id/forgetpass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:text="@string/forgetpass"
             android:textColor="@color/blue_text"
             android:textSize="13sp"
@@ -100,7 +102,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:text="تذكرني"
             android:textColor="#969BA3"
             android:textSize="14sp"
@@ -123,7 +125,7 @@
         android:background="@drawable/btn"
         android:text="تسجيل الدخول"
         android:textSize="15sp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
 
         />
     <LinearLayout
@@ -142,7 +144,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/light"
             android:text="           أو            "
             android:textColor="#BABABA"
             android:textSize="12sp"
@@ -185,7 +187,7 @@
             android:id="@+id/sign_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/medium"
             android:text="اشتراك"
             android:textColor="#2A4293"
             android:textSize="14sp"
@@ -194,7 +196,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:text="ليس لدي حساب؟"
             android:textColor="#151849"
             android:textSize="14sp"
@@ -204,7 +206,7 @@
         android:layout_marginTop="55dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/medium"
         android:text="@string/con"
         android:textColor="@color/Orange"
         android:textSize="15sp"

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp"
+    android:gravity="end">
+    <androidx.cardview.widget.CardView android:layout_width="87dp"
+        android:layout_height="62dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="0dp"
+        android:translationZ="1dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#F4F4F4"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_swim_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="مسبح"
+                android:fontFamily="@font/light"
+                android:textColor="@color/grey2"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:layout_width="87dp"
+        android:layout_height="62dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="0dp"
+        android:translationZ="1dp"
+        android:layout_marginStart="25dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#F4F4F4"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shower_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="حمام"
+                android:fontFamily="@font/light"
+                android:textColor="@color/grey2"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:layout_width="87dp"
+        android:layout_height="62dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="0dp"
+        android:translationZ="1dp"
+        android:layout_marginStart="25dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#F4F4F4"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_wifi_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="واي فاي"
+                android:fontFamily="@font/light"
+                android:textColor="@color/grey2"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:layout_width="87dp"
+        android:layout_height="62dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="0dp"
+        android:translationZ="1dp"
+        android:layout_marginStart="25dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#F4F4F4"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/service_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bed_icon"/>
+            <TextView
+                android:id="@+id/service_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="غرفة نوم"
+                android:fontFamily="@font/light"
+                android:textColor="@color/grey2"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+</HorizontalScrollView>

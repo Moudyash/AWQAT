@@ -30,7 +30,7 @@
             android:text="هذا هو النص مثال"
             android:textColor="@color/blue_text"
             android:textSize="17sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/light"
             android:textStyle="bold"/>
 
         <TextView
@@ -42,7 +42,7 @@
             android:textAlignment="center"
             android:textColor="@color/gery_text"
             android:textSize="15sp"
-            android:fontFamily="@font/montserrat"/>
+            android:fontFamily="@font/regular"/>
 
     </LinearLayout>
 </RelativeLayout>

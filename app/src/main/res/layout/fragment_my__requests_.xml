@@ -28,7 +28,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     android:text="ساعة شاومي تقليد نخب أول"
                     android:textColor="@color/black_text"
                     android:textSize="13sp"
@@ -47,7 +47,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="متجر وصلة"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -64,7 +64,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="(50)"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -85,7 +85,7 @@
                     android:background="@drawable/btn2"
                     android:text="عروض السائقين"
                     android:textSize="15sp"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
 
                     android:layout_marginTop="20dp"
                     android:layout_gravity="end"
@@ -174,7 +174,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
                     android:text="برجر بيف الحار جدا"
                     android:textColor="@color/black_text"
                     android:textSize="13sp"
@@ -189,7 +189,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="الرياض"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -199,7 +199,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text=" , "
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -209,7 +209,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="ممطعم برجر كنج"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -226,7 +226,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="@font/regular"
                         android:text="(50)"
                         android:textColor="@color/gery_text"
                         android:textSize="12sp"
@@ -246,7 +246,7 @@
                     android:background="@drawable/btn"
                     android:text="تقييم الخدمة"
                     android:textSize="15sp"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/regular"
 
                     android:layout_marginTop="20dp"
                     />

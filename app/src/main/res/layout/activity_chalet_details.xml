@@ -131,7 +131,6 @@
 
 
             </LinearLayout>
-            <!--city name rating-->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -189,41 +188,8 @@
 
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-              >
-                <androidx.cardview.widget.CardView
-                    android:layout_width="87dp"
-                    android:layout_height="62dp"
-                    app:cardCornerRadius="8dp"
-                    android:elevation="0dp"
-                    android:translationZ="1dp"
-                 >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:background="#F4F4F4"
-                        android:gravity="center"
-                        >
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/ic_bed_icon"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textsize="12"
-                            android:text="غرفة نوم"
-                            android:fontFamily="@font/light"
-                            android:textColor="@color/grey2"/>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
+            <include
+                layout="@layout/services_cardview_item"/>
             <!--nutrition chart-->
             <TextView
                 android:layout_width="wrap_content"
@@ -286,15 +252,15 @@
                     android:src="@drawable/buerger_profile" />
 
             </LinearLayout>
-<TextView
+            <TextView
 
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textColor="@color/gery_text"
-    android:textSize="14sp"
-    android:layout_marginTop="5dp"
-    android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق."
-  android:fontFamily="@font/light"  />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gery_text"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق."
+                android:fontFamily="@font/light"  />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -318,55 +284,55 @@
                 android:scrollbars="none"
 
                 >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="end"
-                android:layout_marginTop="10dp"
-
-                >
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="8dp"
-                    android:layout_marginEnd="10dp"
-                    >
+                    android:orientation="horizontal"
+                    android:gravity="end"
+                    android:layout_marginTop="10dp"
 
-                    <ImageView
-                    android:layout_width="83dp"
-                    android:layout_height="83dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/buerger_img5"/>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:cardCornerRadius="8dp"
                     >
-
-                    <ImageView
-                        android:layout_width="83dp"
-                        android:layout_height="83dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/buerger_img6"
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp"
                         android:layout_marginEnd="10dp"
-                        />
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:cardCornerRadius="8dp"
-                    >
+                        >
 
-                    <ImageView
-                        android:layout_width="83dp"
-                        android:layout_height="83dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/buerger_img7"/>
-                </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="83dp"
+                            android:layout_height="83dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/buerger_img5"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp"
+                        >
 
-            </LinearLayout>
+                        <ImageView
+                            android:layout_width="83dp"
+                            android:layout_height="83dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/buerger_img6"
+                            android:layout_marginEnd="10dp"
+                            />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="83dp"
+                            android:layout_height="83dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/buerger_img7"/>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
             </HorizontalScrollView>
 
             <TextView
@@ -539,30 +505,30 @@
                 android:layout_height="150dp"
                 android:layout_marginTop="@dimen/spacing_middle"
                 android:layout_marginBottom="@dimen/spacing_middle"
-               />
+                />
 
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="105dp"
-    android:layout_gravity="bottom"
-    android:background="@color/white"
-    android:gravity="center"
-    >
-    <Button
-        android:id="@+id/addtocart"
-android:layout_margin="15dp"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="51dp"
-        android:textColor="@color/white"
-        android:background="@drawable/btn2"
-        android:text="اضف للعربة"
-        android:textSize="15sp"
-        android:fontFamily="@font/regular"
+        android:layout_height="105dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/addtocart"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn2"
+            android:text="اضف للعربة"
+            android:textSize="15sp"
+            android:fontFamily="@font/regular"
 
-        />
-</LinearLayout>
+            />
+    </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

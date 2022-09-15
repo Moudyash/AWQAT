@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:text="1h ago •"
         android:textSize="13sp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
         android:layout_marginEnd="5dp"
         android:textColor="@color/gery_text"/>
     <TextView
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="هذا النص هو"
         android:textSize="13sp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
         android:textColor="@color/gery_text"
         android:layout_marginEnd="10dp"/>
     <ImageView
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:text="إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى "
             android:textSize="13sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/light"
             android:textColor="@color/black_text"
             />
     </LinearLayout>
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:text="1h ago •"
                 android:textSize="13sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/regular"
                 android:layout_marginEnd="5dp"
                 android:textColor="@color/gery_text"/>
             <TextView
@@ -108,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:text="هذا النص هو"
                 android:textSize="13sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/regular"
                 android:textColor="@color/gery_text"
                 android:layout_marginEnd="10dp"/>
             <ImageView
@@ -129,7 +129,7 @@
                     android:layout_height="wrap_content"
                     android:text="إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى "
                     android:textSize="13sp"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/light"
                     android:textColor="@color/black_text"
                     />
             </LinearLayout>
@@ -149,7 +149,7 @@
                 android:layout_height="wrap_content"
                 android:text="1h ago •"
                 android:textSize="13sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/regular"
                 android:layout_marginEnd="5dp"
                 android:textColor="@color/gery_text"/>
             <TextView
@@ -157,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:text="هذا النص هو"
                 android:textSize="13sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/regular"
                 android:textColor="@color/gery_text"
                 android:layout_marginEnd="10dp"/>
             <ImageView
@@ -178,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:text="إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى "
                     android:textSize="13sp"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/light"
                     android:textColor="@color/black_text"
                     />
             </LinearLayout>
@@ -198,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:text="1h ago •"
                 android:textSize="13sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/regular"
                 android:layout_marginEnd="5dp"
                 android:textColor="@color/gery_text"/>
             <TextView
@@ -206,7 +206,7 @@
                 android:layout_height="wrap_content"
                 android:text="هذا النص هو"
                 android:textSize="13sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/regular"
                 android:textColor="@color/gery_text"
                 android:layout_marginEnd="10dp"/>
             <ImageView
@@ -227,7 +227,7 @@
                     android:layout_height="wrap_content"
                     android:text="إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى "
                     android:textSize="13sp"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/light"
                     android:textColor="@color/black_text"
                     />
             </LinearLayout>

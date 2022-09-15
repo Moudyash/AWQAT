@@ -49,7 +49,7 @@
         android:textColor="@color/Orange"
         android:text="العنوان الأول"
         android:textSize="14sp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/medium"
         android:layout_marginEnd="5dp"/>
             <ImageView
                 android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
             android:textColor="@color/gery_text"
             android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق."
             android:textSize="13sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             />
     </LinearLayout>
     <LinearLayout
@@ -85,7 +85,7 @@
                 android:textColor="@color/Orange"
                 android:text="العنوان الثاني"
                 android:textSize="14sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/medium"
                 android:layout_marginEnd="5dp"/>
             <ImageView
                 android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
             android:textColor="@color/gery_text"
             android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق."
             android:textSize="13sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             />
     </LinearLayout>
     <LinearLayout
@@ -121,7 +121,7 @@
                 android:textColor="@color/Orange"
                 android:text="العنوان الثالث"
                 android:textSize="14sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/medium"
                 android:layout_marginEnd="5dp"/>
             <ImageView
                 android:layout_width="wrap_content"
@@ -134,7 +134,7 @@
             android:textColor="@color/gery_text"
             android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق."
             android:textSize="13sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             />
     </LinearLayout>
     <LinearLayout
@@ -157,7 +157,7 @@
                 android:textColor="@color/Orange"
                 android:text="العنوان الرابع"
                 android:textSize="14sp"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/medium"
                 android:layout_marginEnd="5dp"/>
             <ImageView
                 android:layout_width="wrap_content"
@@ -170,7 +170,7 @@
             android:textColor="@color/gery_text"
             android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق."
             android:textSize="13sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             />
     </LinearLayout>
 

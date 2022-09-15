@@ -48,7 +48,7 @@ android:background="@color/white"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="17sp"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:layout_marginBottom="30dp"
             />
 

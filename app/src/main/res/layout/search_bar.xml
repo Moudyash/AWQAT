@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="47dp"
                 android:background="@drawable/search_edit_text"
-                android:fontFamily="@font/montserrat"
+                android:fontFamily="@font/regular"
                 android:layoutDirection="ltr"
                 android:textColor="@color/gery_text"
                 android:textSize="12sp"

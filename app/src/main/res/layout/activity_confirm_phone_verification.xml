@@ -36,7 +36,7 @@
         android:textSize="15sp"
         android:textColor="@color/black_text"
 
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/regular"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"/>
     <LinearLayout
@@ -145,7 +145,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/medium"
             android:text="@string/Resend_Code"
             android:textColor="@color/blue_text"
             android:textSize="14sp"
@@ -155,7 +155,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/regular"
             android:text="لم يصلني كود التحقق؟"
             android:textColor="@color/black_text"
             android:textSize="14sp"
@@ -175,7 +175,7 @@
         android:background="@drawable/btn"
         android:text="تحقق"
         android:textSize="15sp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/montserrat_arabic_regular"
 
         />
 </LinearLayout>
